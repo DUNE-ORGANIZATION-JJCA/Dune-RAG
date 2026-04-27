@@ -36,6 +36,7 @@ ENV/
 # Environment
 .env
 .env.local
+.env.cloud
 *.local
 
 # Data
