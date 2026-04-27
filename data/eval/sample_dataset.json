@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "description": "Sample evaluation dataset for Dune RAG",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "¿De qué trata el juego Dune: Arrakis Dominion?",
+      "ground_truth": "Dune: Arrakis Dominion es un juego de estrategia y gestión de recursos ambientado en el universo Dune. El jugador controla una Casa Menor en Arrakis, gestionando la extracción de especia Melange, construyendo enclaves y compitiendo con otras Casas.",
+      "expected_sources": ["storytelling", "manual"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q2",
+      "question": "¿Qué es la especia Melange?",
+      "ground_truth": "La Melange, también conocida como 'la especia', es el recurso más valioso del universo Dune. Se extrae de las profundidades de Arrakis y tiene propiedades que prolongan la vida, expanden la consciencia y permiten la navegación espacial.",
+      "expected_sources": ["storytelling", "gdd"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q3",
+      "question": "¿Cuáles son las Casas principales del juego?",
+      "ground_truth": "Las Casas principales del universo Dune que aparecen en el juego incluyen los Atreides, conocidos por su honor; los Harkonnen, famosos por su crueldad y ambición; y los Corrino, la Casa Imperial que gobierna el universo.",
+      "expected_sources": ["storytelling", "manual"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q4",
+      "question": "¿Cómo funciona el sistema de extracción de especia?",
+      "ground_truth": "El sistema de extracción de especia requiere que los jugadores construyan estructuras de extracción en ubicaciones específicas de Arrakis, gestionando trabajadores y protegiendo las operaciones de amenazas.",
+      "expected_sources": ["manual", "gdd"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q5",
+      "question": "¿Qué diferencia hay entre las mecánicas de las distintas Casas?",
+      "ground_truth": "Cada Casa tiene ventajas únicas: Atreides destaca en comercio y relaciones, Harkonnen en producción agresiva y control, Corrino en poder político y económico.",
+      "expected_sources": ["manual"],
+      "difficulty": "hard"
+    }
+  ]
+}

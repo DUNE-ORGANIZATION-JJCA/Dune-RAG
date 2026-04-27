@@ -1,0 +1,13 @@
+# Dune RAG dependencies
+# Core
+python-dotenv>=1.0.0
+
+# Vector store
+qdrant-client>=1.7.0
+
+# Text embedding
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# HTTP
+requests>=2.31.0
